@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string name="deskripsi">Halo nama saya Muhamad Bagus Prakoso, Lahir di kota Bandung pada tanggal 11 Januari 2001, Saya adalah mahasiswa Univesitas Komputer Indonesia, Jurusan Teknik Informatika.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.profile.MyFragment"
+    android:background="@drawable/brdr_daily">
+
+    <TextView
+        android:id="@+id/judul_desc"
+        style="@style/teksstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isi_desc"
+        style="@style/teksstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul_desc"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="24dp"
+        android:justificationMode="inter_word"
+        android:text="Halo nama saya Muhamad Bagus Prakoso, Lahir di kota Bandung pada tanggal 11 Januari 2001, Saya adalah mahasiswa Univesitas Komputer Indonesia, Jurusan Teknik Informatika."
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+</RelativeLayout>
